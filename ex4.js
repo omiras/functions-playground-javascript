@@ -25,3 +25,7 @@ console.log(
   "Para recorrer 20km , el ciclista necesitaria 10 litros de agua: ",
   agua2
 );
+
+/**
+ * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4ODAxNV8yMjIwOTI5MQ
+ */
