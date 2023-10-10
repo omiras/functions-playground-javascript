@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 8</title>
 </head>
+
 <body>
     <h1>Métodos string</h1>
     <p>Todos los string tienen funciones o también llamados métodos para manipular su valor</p>
-    <p>Investiga un poco sorbe ello <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Useful_string_methods">aqui</a></p>
+    <p>Investiga un poco sorbe ello <a
+            href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Useful_string_methods">aqui</a></p>
     <span id="cambiar">Me encantan los gatos!</span>
-<script>
+    <script>
 
-let textoSpan = document.querySelector('#cambiar').textContent
+        let textoSpan = document.querySelector('#cambiar').textContent
 
-// La variable 'textoSpan' contiene el texto del tag 'span' con id='cambiar'
+        // La variable 'textoSpan' contiene el texto del tag 'span' con id='cambiar'
 
-// Usa adecuadamente la función 'replace' para cambiar la palabra 'gatos' del texto del span; por tu animal favorito
-let nuevoTexto = textoSpan.replace('', '') // Cambiar solamente esta línea
+        // Usa adecuadamente la función 'replace' para cambiar la palabra 'gatos' del texto del span; por tu animal favorito
+        // Resultado esperado: https://oscarm.tinytake.com/msc/ODc4ODA3OF8yMjIwOTM4NA
+        let nuevoTexto = textoSpan.replace('', '') // Cambiar solamente esta línea
 
 
-// No modificar a partir de aquí
-document.querySelector('#cambiar').textContent = nuevoTexto;
+        // No modificar a partir de aquí
+        document.querySelector('#cambiar').textContent = nuevoTexto;
 
-</script>
+    </script>
 </body>
+
 </html>
