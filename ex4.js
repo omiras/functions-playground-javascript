@@ -10,7 +10,7 @@
  */
 
 function agua_necesaria(km) {
-  let agua = 1;
+  let agua = 0.5 * km;
   return agua;
 }
 
@@ -25,3 +25,7 @@ console.log(
   "Para recorrer 20km , el ciclista necesitaria 10 litros de agua: ",
   agua2
 );
+
+/**
+ * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4ODAxNV8yMjIwOTI5MQ
+ */
