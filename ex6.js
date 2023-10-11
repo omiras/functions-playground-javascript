@@ -1,5 +1,5 @@
 /**
- * DIFÍCIL (pasar a index6.html si)
+ * DIFÍCIL 
  *
  * Nos han pedido diseñar una función que, dado un string, nos diga si dicho string está todo en mayúsculas. Si lo está, debe devolver un valor boleano de true. En caso contrario, debe devolver un valor boleano de false.
  *
