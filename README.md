@@ -6,6 +6,8 @@ Completa los siguientes ejercicios.
 
 En un terminal escribe `node ex1.js` y observa el resultado.
 
+Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código tenéis lo que hay que hacer.
+
 ## Solución
 
 Solución propuesta por [Arnau Mas](https://github.com/Arnau-Mas/functions-playground-javascript-master)  
