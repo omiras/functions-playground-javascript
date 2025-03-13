@@ -1,19 +1,13 @@
 /**
- * DIFÍCIL 
- *
- * Nos han pedido diseñar una función que, dado un string, nos diga si dicho string está todo en mayúsculas. Si lo está, debe devolver un valor boleano de true. En caso contrario, debe devolver un valor boleano de false.
- *
- * Modifica únicamente la función para conseguirlo.
+ * Implementa una función que calcule el área de una esfera dado su radio.
+ * Fórmula del área de una esfera: A = 4 * π * r²
  */
-function isUpperCase(word) {
-  return true;
+
+function sphereArea(radius) {
+    // COMPLETAME
+    return;
 }
 
-/**
- * NO MODIFICAR A PARTIR DE AQUÍ. SOLO PUDES MODIFICAR EL CONTENIDO DE LA FUNCIÓN {}
- */
-
-console.log(isUpperCase("patata")); // debe devolver false
-console.log(isUpperCase("patAtA")); // debe devolver false
-console.log(isUpperCase("PATATA")); // debe devolver true
-console.log(isUpperCase("Hello World!")); // debe devolver false
+console.log("Area de la esfera para el valor 1: ", sphereArea(1));  // ≈ 12.5664
+console.log("Area de la esfera para el valor 3: ", sphereArea(3));  // ≈ 113.097
+console.log("Area de la esfera para el valor 3: ", sphereArea(5));  // ≈ 314.159

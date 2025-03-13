@@ -2,6 +2,10 @@
 
 Completa los siguientes ejercicios.
 
+# ¿Cómo hacerlo?
+
+En un terminal escribe `node ex1.js` y observa el resultado.
+
 ## Solución
 
 Solución propuesta por [Arnau Mas](https://github.com/Arnau-Mas/functions-playground-javascript-master)  

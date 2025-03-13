@@ -1,33 +1,13 @@
-/**
- * Extiende la función del ex4.
- *
- * Ahora, también vamos a determinar el agua necesaria en función de la condición física del ciclista.
- *
- * Si la condición es 'buena', el ciclista necesita 0.5l por cada km
- * Si la condicion es 'regular', el ciclista necesita 0.6l por cada km
- * Si la condición es 'mala', el ciclista necesita 0.7l por cada km
- */
 
-/** La función está incompleta. SOLO debes modificar la función */
-
-function agua_necesaria(condicion, km) {
-  let agua_por_km;
-  let litros_totales;
-
-  if (condicion == "buena") {
-    agua_por_km = 0.5;
-  }
-
-  return litros_totales;
+function rollDice() {
+    return Math.floor(Math.random() * 6) + 1;
 }
 
-let condicion = "regular";
-let km = 5;
-let agua = agua_necesaria(condicion, km);
-console.log(
-  `Para recorrer ${km} kms con una condición física ${condicion}, el ciclista necesita ${agua}l de agua`
-);
-
 /**
- * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4ODA0NF8yMjIwOTMyMA
+ * ¿Conces el juego de mesa Catan? https://devir.es/catan-el-juego?srsltid=AfmBOopKAZ38tynV99VjnI6bJe9uzAldTZ_KLqmp5tvdTJAw_ho5PjXO
+ * 
+ * En este juego siempre hay que tirar dos dados de 6 y sumar sus resultados.
+ * Escribe a continuación el código necesario para invocar la función "rollDice" dos veces, sumar los resultados de las dos tiradas y mostrar el resultado por la consola.
  */
+
+// Tu código a partir de aquí
