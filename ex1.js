@@ -7,3 +7,6 @@ function muestraGato() {
 }
 
 // A partir de aquí tu código
+// A las 20.31 lo corregimos
+muestraGato(); // Ejecútame esta función la cuál no tiene parámetros
+muestraGato();
