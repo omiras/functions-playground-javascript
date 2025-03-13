@@ -22,5 +22,5 @@ if (isPositive(x)) {
 
 // Corregir 21.23
 // 2.
-let resultado1= isPositive(-2);
+// let resultado1= isPositive(-2);
 // console.log(resultado1);
