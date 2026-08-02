@@ -21,6 +21,9 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 
 <img src="https://oscarm.tinytake.com/media/1877783?filename=1785664547402_TinyTake02-08-2026-11-55-41_639212613459534817.png&sub_type=thumbnail_preview&type=attachment&width=799&height=299" title="Powered by TinyTake Screen Capture"/><br>
 
+### ex6.js
+
+<img src="https://oscarm.tinytake.com/media/1877784?filename=1785664929513_TinyTake02-08-2026-12-02-04_639212617279385998.png&sub_type=thumbnail_preview&type=attachment&width=797&height=151" title="Powered by TinyTake Screen Capture"/><br>
 
 ## Solución
 
