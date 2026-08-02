@@ -1,5 +1,6 @@
 /**
- * Contesta a todas las preguntas. En este ejercicio no tienes que codificar nada.
+ * Contesta a todas las preguntas que hay después de esta función.
+ * En este ejercicio NO tienes que codificar nada.
  */
 
 function isPositive(num) {
