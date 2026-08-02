@@ -1,5 +1,6 @@
 /**
  * Implementa una función que reciba dos números y devuelva el mayor de ellos.
+ * PISTA: Si a es mayor que b, entonces tenemos que devolver el valor de a. Si b es mayor que a, entonces tenemps que devolver el valor de b.
  */
 
 function maxNumber(a, b) {
