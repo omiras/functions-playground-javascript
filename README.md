@@ -25,6 +25,10 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 
 <img src="https://oscarm.tinytake.com/media/1877784?filename=1785664929513_TinyTake02-08-2026-12-02-04_639212617279385998.png&sub_type=thumbnail_preview&type=attachment&width=797&height=151" title="Powered by TinyTake Screen Capture"/><br>
 
+### ex7.js
+
+<img src="https://oscarm.tinytake.com/media/1877785?filename=1785665165543_TinyTake02-08-2026-12-06-02_639212619641316722.png&sub_type=thumbnail_preview&type=attachment&width=800&height=178" title="Powered by TinyTake Screen Capture"/>
+
 ## Solución
 
 [Solución](https://github.com/omiras/functions-playground-javascript/tree/solution-13-march) -> Hacer click en cada uno de los ficheros para verla 
