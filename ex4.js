@@ -3,7 +3,7 @@
  */
 
 function rollDice() {
-    // COMPLETAR
+    // COMPLETAR. SOLO DEBEMOS MODIFICAR EL CUERPO DE ESTA FUNCIÓN. 
     return;
 }
 

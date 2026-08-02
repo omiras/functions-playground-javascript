@@ -13,6 +13,9 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 ### ex3.js
 <img src="https://oscarm.tinytake.com/media/187777d?filename=1785663571264_TinyTake02-08-2026-11-39-28_639212603699184383.png&sub_type=thumbnail_preview&type=attachment&width=798&height=262" title="Powered by TinyTake Screen Capture"/><br>
 
+### ex4.js
+
+<img src="https://oscarm.tinytake.com/media/1877780?filename=1785663811819_TinyTake02-08-2026-11-43-24_639212606106491035.png&sub_type=thumbnail_preview&type=attachment&width=800&height=197" title="Powered by TinyTake Screen Capture"/><br>
 
 ## Solución
 
