@@ -27,6 +27,12 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 
 ### ex7.js
 
+### index6.html
+
+Este ejercicio debes abrirlo con Live Server.
+
+<img src="https://oscarm.tinytake.com/media/1877786?filename=1785665461976_TinyTake02-08-2026-12-10-58_639212622602856341.png&sub_type=thumbnail_preview&type=attachment&width=1197&height=237" title="Powered by TinyTake Screen Capture"/><br>
+
 <img src="https://oscarm.tinytake.com/media/1877785?filename=1785665165543_TinyTake02-08-2026-12-06-02_639212619641316722.png&sub_type=thumbnail_preview&type=attachment&width=800&height=178" title="Powered by TinyTake Screen Capture"/>
 
 ## Solución
