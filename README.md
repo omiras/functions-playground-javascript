@@ -37,10 +37,7 @@ Este ejercicio debes abrirlo con Live Server.
 
 ### index7.html
 
-<img src="https://oscarm.tinytake.com/media/1877788?filename=1785665695198_TinyTake02-08-2026-12-14-51_639212624938621279.png&sub_type=thumbnail_preview&type=attachment&width=1199&height=482" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>
-
-
-
+<img src="https://oscarm.tinytake.com/media/1877788?filename=1785665695198_TinyTake02-08-2026-12-14-51_639212624938621279.png&sub_type=thumbnail_preview&type=attachment&width=1199&height=482" title="Powered by TinyTake Screen Capture"/><br>
 
 ## Solución
 
