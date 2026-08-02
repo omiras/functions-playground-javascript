@@ -10,5 +10,4 @@ Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código
 
 ## Solución
 
-Solución propuesta por [Arnau Mas](https://github.com/Arnau-Mas/functions-playground-javascript-master)  
-Solución propuesta por [Rául Hinojosa](https://github.com/RaulHinojosa24/functions-playground-javascript)
+[Solución](https://github.com/omiras/functions-playground-javascript/tree/solution-13-march) -> Hacer click en cada uno de los ficheros para verla 
