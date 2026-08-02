@@ -39,6 +39,10 @@ Este ejercicio debes abrirlo con Live Server.
 
 <img src="https://oscarm.tinytake.com/media/1877788?filename=1785665695198_TinyTake02-08-2026-12-14-51_639212624938621279.png&sub_type=thumbnail_preview&type=attachment&width=1199&height=482" title="Powered by TinyTake Screen Capture"/><br>
 
+### index8.html
+
+[Clic para ver el resultado esperado](https://oscarm.tinytake.com/msc/ODc4ODA3OF8yMjIwOTM4NA)
+
 ## Solución
 
 [Solución](https://github.com/omiras/functions-playground-javascript/tree/solution-13-march) -> Hacer click en cada uno de los ficheros para verla 
