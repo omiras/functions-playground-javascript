@@ -31,18 +31,15 @@ Los tres ejemplos de funciones están reunidos en [ejemplos/index.html](ejemplos
 | [index10.html](index10.html) | Enlazar un script externo |
 | [index11.html](index11.html) | Cambiar palabras con replace |
 
-El antiguo ex3b pasa a index4. Los ejercicios posteriores se renumeran; los tres ejercicios que ya eran HTML pasan a index9, index10 e index11.
-
 En las tiradas aleatorias se muestra un ejemplo de salida posible, con el intervalo de resultados válidos. En el ejercicio de replace puedes elegir cualquier animal.
 
 ## Soluciones
 
-La rama **solution-html** contiene los mismos HTML resueltos con soluciones sencillas y declaraciones con let.
+[Descargar las soluciones en ZIP](https://github.com/omiras/functions-playground-javascript/archive/refs/heads/solution-html.zip)
 
-## Observaciones didácticas
+Descomprime el archivo y abre los HTML con Live Server. Intenta resolver cada ejercicio antes de consultar la solución.
 
-- index4 es de observación: los mensajes positivo/negativo están intercambiados intencionalmente. La solución responde en comentarios.
-- index7 calcula el área de la superficie de una esfera, no su volumen. La llamada con radio 5 está etiquetada correctamente.
-- index9 abre un alert en cada recarga; con autoguardado puede interrumpir la escritura. Se mantiene porque practicar alert es el objetivo.
-- index10 introduce scripts externos y manipulación del documento: puede reservarse para una sesión posterior.
-- Posible ampliación, no añadida: una función que calcule el precio final con descuento, devuelva el resultado y se reutilice con varios productos.
+## Recursos
+
+- [¿Qué es una función? — LenguajeJS](https://lenguajejs.com/fundamentos/funciones/que-es-una-funcion/)
+- [Parámetros de una función — LenguajeJS](https://lenguajejs.com/fundamentos/funciones/parametros/)
