@@ -1,3 +1,4 @@
-document.querySelector(
-  "body"
-).innerHTML += `<p style="color:green">¡Enhorabuena! Has adjuntado enlazado bien el fichero externo script-externo.js</p>`;
+let aviso = document.createElement("p");
+aviso.textContent = "¡Enhorabuena! Has enlazado bien el fichero externo script-externo.js";
+aviso.style.color = "green";
+document.querySelector(".lesson").appendChild(aviso);

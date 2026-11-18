@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Interpretar una función booleana</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 4 · Interpretar una función booleana</h1>
+        <p>Practica las funciones en el navegador.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Una comparación devuelve true o false. Si una función devuelve un booleano, su llamada puede ser la condición de un if.</p>
+        <pre><code></code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Responde en los comentarios: ¿cómo se llama la función?, ¿cómo la invocarías con 4?, ¿qué tipo de dato devuelve? Explica por qué los mensajes del if...else están intercambiados. No cambies el código ejecutable.</p>
+        <p>Lee el código y predice el resultado antes de cambiarlo. Trabaja al final de este HTML y guarda para probar. Recuerda utilizar el prompt de clase cuando necesites ayuda.</p>
+
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <p>Salida de la consola al completar el ejercicio:</p>
+        <pre>El n&#250;mero es negativo</pre>
+        <p>Este mensaje es incorrecto para 4: la función devuelve true, pero el mensaje del if dice negativo. La tarea consiste en explicar el error.</p>
+      </details>
+    </main>
+    <script>
+      /**
+       * Contesta a todas las preguntas que hay después de esta función.
+       * En este ejercicio NO tienes que codificar nada.
+       */
+
+      function isPositive(num) {
+        return num > 0;
+      }
+
+      /**
+       * 1. ¿Que nombre tiene esta función?
+       * 2. ¿Que deberíamos escribir para ejecutar esta función?
+       * 3. ¿Qué tipo de datos devuelve esta función? ¿Un string, un number o un boolean?
+       * 4. El código de abajo usa la función isPositive. ¿La usa adecuadamente? ¿Por qué?
+       */
+
+      let x = 4;
+      if (isPositive(x)) {
+        console.log("El número es negativo");
+      } else {
+        console.log("El número es positivo");
+      }
+    </script>
+  </body>
+</html>

@@ -1,24 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        html{
-            font-size: 20px;
-        }
-    </style>
-</head>
+    <title>Ejercicio 7 - Calcular el área de una esfera</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 7 · Calcular el área de una esfera</h1>
+        <p>Practica las funciones en el navegador.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>El área de la superficie de una esfera es 4 × π × radio². Math.PI proporciona π y el operador ** permite elevar un número a una potencia.</p>
+        <pre><code></code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Completa sphereArea para devolver el área de la superficie de la esfera. Conserva las llamadas de prueba; no redondees el resultado.</p>
+        <p>Lee el código y predice el resultado antes de cambiarlo. Trabaja al final de este HTML y guarda para probar. Recuerda utilizar el prompt de clase cuando necesites ayuda.</p>
 
-<body>
-    <!-- Resultado esperado: https://oscarm.tinytake.com/msc/ODc4ODA2OF8yMjIwOTM1OQ-->
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <p>Salida de la consola al completar el ejercicio:</p>
+        <pre>6</pre>
 
-    <h1>Uso de ficheros externos JavaScript</h1>
-    <p>Queremos ejecutar el código del script <strong>script-externo.js</strong> cada vez que carguemos este HTML.</p>
-    <p>Modifica el fichero index7.html para conseguirlo.</p>
-    <p>Averigua <a href="https://www.w3schools.com/tags/att_script_src.asp">como hacerlo</a></p>
-</body>
+      </details>
+    </main>
+    <script>
+      /**
+       * Implementa una función que calcule el área de una esfera dado su radio.
+       * Fórmula del área de una esfera: A = 4 * π * r²
+       * Pista: Busca en Internet o pregunta a la IA : "Cómo calcular el área de una esfera dado su radio"
+       */
 
+      function sphereArea(radius) {
+          // COMPLETAME
+          return;
+      }
+
+      console.log("Area de la esfera para el valor 1: ", sphereArea(1));  // ≈ 12.5664
+      console.log("Area de la esfera para el valor 3: ", sphereArea(3));  // ≈ 113.097
+      console.log("Area de la esfera para el valor 5: ", sphereArea(5));  // ≈ 314.159
+    </script>
+  </body>
 </html>

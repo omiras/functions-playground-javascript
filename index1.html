@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Invocar una función</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 1 · Invocar una función</h1>
+        <p>Practica las funciones en el navegador.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Definir una función guarda unas instrucciones para reutilizarlas. Para ejecutarla debes invocarla: escribe su nombre seguido de paréntesis.</p>
+        <pre><code>function saludar() { console.log(&quot;Buenos d&#237;as&quot;); }
+saludar(); function doble(valor) { return valor * 2; }
+let total = doble(6); function contar(limite) {
+  for (let i = 1; i &lt;= limite; i++) { console.log(i); }
+} function esMayorDeEdad(edad) { return edad &gt;= 18; } let decimal = Math.random();
+console.log(Math.floor(3.8)); // 3 let primero = doble(3);
+let segundo = doble(4);
+console.log(primero + segundo); // 14 let lado = 3;
+console.log(lado ** 2); // 9 function esPar(numero) {
+  if (numero % 2 == 0) { return true; } else { return false; }
+} let saludo = &quot;Buenos d&#237;as&quot;;
+alert(saludo); &lt;script src=&quot;otro-archivo.js&quot;&gt;&lt;/script&gt; let frase = &quot;Me gusta el t&#233;&quot;;
+let nuevaFrase = frase.replace(&quot;t&#233;&quot;, &quot;caf&#233;&quot;);</code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Invoca muestraGato para que aparezca Gato! en la consola. Escribe únicamente después de la función.</p>
+        <p>Lee el código y predice el resultado antes de cambiarlo. Trabaja al final de este HTML y guarda para probar. Recuerda utilizar el prompt de clase cuando necesites ayuda.</p>
+
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <p>Salida de la consola al completar el ejercicio:</p>
+        <pre>Gato!</pre>
+
+      </details>
+    </main>
+    <script>
+      /**
+       * Escribe la sentencia que permita invocar a esta funcion. Deberias ver por la consola del navegador la palabra "Gato!".
+       */
+
+      function muestraGato() {
+        console.log("Gato!");
+      }
+
+      // A partir de aquí tu código
+    </script>
+  </body>
+</html>

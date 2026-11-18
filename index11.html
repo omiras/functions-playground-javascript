@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11 - Cambiar palabras con replace</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 11 · Cambiar palabras con replace</h1>
+        <p>Practica las funciones en el navegador.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Los métodos son funciones asociadas a un valor. En un texto, replace recibe el fragmento que queremos buscar y el texto que lo sustituirá. Devuelve un nuevo texto.</p>
+        <pre><code></code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Modifica únicamente los dos argumentos de replace para sustituir gatos por tu animal favorito en el texto de la página.</p>
+        <p>Lee el código y predice el resultado antes de cambiarlo. Trabaja al final de este HTML y guarda para probar. Recuerda utilizar el prompt de clase cuando necesites ayuda.</p>
+        <p id="cambiar">Me encantan los gatos!</p>
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <p>Texto que verás en la ventana emergente o en la página, según el ejercicio:</p>
+        <pre>Area de la esfera para el valor 1:  12.566370614359172</pre>
+        <p>Este ejemplo utiliza perros. El texto debe mostrar el animal que hayas elegido.</p>
+      </details>
+    </main>
+    <script>
+      let textoSpan = document.querySelector("#cambiar").textContent;
+      // replace devuelve el texto con la sustitución; no modifica el texto original.
+      let nuevoTexto = textoSpan.replace("", ""); // Cambia solamente esta línea.
+      // No modificar a partir de aquí.
+      document.querySelector("#cambiar").textContent = nuevoTexto;
+    </script>
+  </body>
+</html>

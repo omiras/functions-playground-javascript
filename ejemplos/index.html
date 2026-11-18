@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de funciones JavaScript</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejemplos de funciones JavaScript</h1>
+        <p>Lee los ejemplos del script al final de este HTML y observa su resultado en la consola.</p>
+      </header>
+
+      <section aria-labelledby="predefinidas">
+        <h2 id="predefinidas">1. Usar funciones que ya existen</h2>
+        <p>Una función realiza una tarea. Para ejecutarla, escribe su nombre seguido de paréntesis. Dentro puedes pasarle los valores que necesita, llamados <strong>argumentos</strong>.</p>
+        <p><code>parseInt("123")</code> convierte ese texto en un número entero. <code>console.log()</code> muestra información en la consola. <code>Math.random()</code> devuelve un número aleatorio entre 0 (incluido) y 1 (excluido).</p>
+      </section>
+
+      <section aria-labelledby="propias">
+        <h2 id="propias">2. Crear y llamar a tus funciones</h2>
+        <p>La palabra <code>function</code> permite definir una función. El código entre llaves se ejecuta cuando la llamas, no cuando la defines.</p>
+        <p>Los <strong>parámetros</strong> son los nombres que usa la función para recibir datos. Por ejemplo, <code>suma(a, b)</code> recibe dos valores y muestra su suma en la consola.</p>
+        <p>Observa la diferencia entre una función que siempre muestra el mismo mensaje y otra que recibe el mensaje como parámetro.</p>
+      </section>
+
+      <section aria-labelledby="retorno">
+        <h2 id="retorno">3. Devolver un valor y entender el ámbito</h2>
+        <p><code>return</code> devuelve un valor a quien llama a la función. Puedes guardarlo en una variable, mostrarlo o usarlo en otra operación.</p>
+        <p><code>console.log()</code> muestra un mensaje; <code>return</code> entrega un resultado. Son tareas diferentes.</p>
+        <p class="idea">Una variable declarada con <code>let</code> dentro de una función solo está disponible dentro de ella. Los parámetros también son locales a la función.</p>
+        <p>Al final del script hay una línea comentada: <code>// console.log(resultado_resta);</code>. Descoméntala para comprobar el error de ámbito: aparecerá <code>ReferenceError: resultado_resta is not defined</code>. Después vuelve a comentarla.</p>
+      </section>
+
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <pre>Ves? Soy un string: string
+Me he convertido en un: number
+Hola! Hola!
+Número aleatorio entre 0 (incluido) y 1 (excluido): [un número aleatorio]
+Un mensaje!
+Lo que yo ponga aquí, es lo que se va a mostrar por consola!
+3
+-9
+0
+Gato? Gato!
+Suma 1 3
+Suma 2:  15
+Suma 3:  15
+Resta: -1</pre>
+        <p>El número generado por <code>Math.random()</code> cambia en cada ejecución. La línea de error de ámbito solo se ejecutará si la descomentas.</p>
+      </details>
+      <p>Abre esta página con <strong>Live Server</strong> y consulta <strong>F12 → Consola</strong>.</p>
+    </main>
+    <script>
+      // JavaScript define varias funciones globales
+      // por ejemplo la función 'parseInt'.
+      // Esta función toma por argumento un valor.
+      // Transforma el valor del string en un number
+
+      let soyUnString = '123';
+      console.log("Ves? Soy un string: " + typeof(soyUnString))
+      let soyUnNumero = parseInt(soyUnString);
+      console.log("Me he convertido en un: " + typeof(soyUnNumero))
+
+
+      // Existe una 'variable' global en JavaScript llamada
+      // 'console'.
+      // Dicha variable tiene una función, de nombre 'log'
+      // La función tiene uno o varios parámetros de entrada.
+      // En el ejemplo, le pasamos UN parámetro a la función. El VALOR de la variable 'myText'
+      let myText = 'Hola! Hola!';
+      console.log(myText);
+
+      // No solo eso. JavaScript define muchas funciones en "variables" globales para poder usar.
+      let numeroAleatorio = Math.random()
+      console.log("Número aleatorio entre 0 (incluido) y 1 (excluido):", numeroAleatorio);
+
+      //Podemos definir funciones nosotros mismos.
+      // Aquí por ejemplo una función que muestra por consola un mensaje
+
+      function muestraPorConsola() {
+          console.log("Un mensaje!")
+      }
+
+      muestraPorConsola()
+
+      //Sin embargo, la gracia de las funciones es poder parametrizarlas. Es decir, que hagan algo diferente en función de la información que le suministras
+
+      function muestraPorConsola_v2(mensaje) {
+          console.log(mensaje)
+      }
+
+      muestraPorConsola_v2("Lo que yo ponga aquí, es lo que se va a mostrar por consola!")
+
+      //Las funciones pueden tener más de un parámetro. Por ejemplo, la siguiente función "suma" tiene 2. Lo que hace es sumar el valor de dichos parámetros y los muestra por consola
+
+      function suma(a, b) {
+          let c = a + b;
+          console.log(c)
+      }
+
+      suma(1,2)
+      suma(-1, -8)
+      suma(0, 0)
+
+      /**
+       * la palabra clave 'return'
+       */
+
+      /**
+       * Las funciones pueden devolver un valor.
+       * Esto se consigue mediante la palabra clave 'return'
+       *
+       */
+
+      function siempreDevuelvoLoMismo() {
+        return "Gato!";
+      }
+
+      let x = siempreDevuelvoLoMismo();
+      console.log("Gato?", x);
+
+      /**
+       * Evidentemente, que una función siempre devuelve lo mismo, no es (normalmente) muy útil.
+       * Vamos a definir una función que sume dos números; y devuelva el resultado
+       */
+
+      function sumaConRetorno(a, b) {
+        let resultado = a + b;
+        return resultado;
+      }
+
+      let res = sumaConRetorno(1, 2);
+      console.log("Suma 1", res);
+
+      /**
+       * Evidentemente, podemos pasar el valor "constante"; pero también podriamos pasar el valor de una variable para realizar dicha suma
+       */
+
+      let numero1 = 5;
+      let numero2 = 10;
+      let otroResultado = sumaConRetorno(numero1, numero2);
+      console.log("Suma 2: ", otroResultado);
+
+      // Fijaos que aquí vemos una de las grandes ventajas de las funciones. Estamos REUTILIZANDO un código en varias partes de nuestro script; pero que se comporta de manera diferente en función del valor de los parámetros que le pasamos (sí, esta función es muy tontita y podríamos hacer 5 + 10! Es solo un ejemplo)
+
+      /**
+       * Vamos a ver algo interesante, en este ejemplo, aparentemente igual
+       */
+
+      let a = 5;
+      let b = 10;
+      let resultado = sumaConRetorno(a, b);
+      console.log("Suma 3: ", resultado);
+
+      /**
+       * Investiga la función 'sumaConRetorno'. ¿Cómo es posible que usamos el mismo nombre 'a' y 'b' para declarar las variables, y no obtenemos ningún error? También declaramos la variable 'resultado', la cúal también se declara dentro de la función!
+       */
+
+      /**
+       * A esto se le llama 'ámbito' de una variable, o en inglés, scope. https://desarrolloweb.com/articulos/517.php
+       *
+       * Menudo galimatias si tuvieramos  que tener en cuenta el nombre de las variables que se usan dentro de TODAS las funciones.
+       *
+       * Para ello, las variables declaradas dentro de una función, NO PUEDEN ser accedidas, ni modificadas, desde fuera de la función
+       *
+       */
+
+      /**
+       * Esto se puede resumir en : "lo que ocurre dentro de una función, incluido el nombre de sus parámetros, queda dentro de una función". Como en la isla de las tentaciones
+       */
+
+      function resta(c, d) {
+        let resultado_resta = c - d;
+        return resultado_resta;
+      }
+
+      console.log("Resta:", resta(1, 2));
+      // console.log(resultado_resta); // Va a dar un error. En este punto el script no tiene ni idea donde esta definida la variable 'resultado_resta'; pues no está definida en su ámbito o scope
+    </script>
+  </body>
+</html>

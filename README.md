@@ -1,48 +1,48 @@
-# Ejercicios usando funciones JavaScript
+# Funciones JavaScript
 
-Completa los siguientes ejercicios.
+## Cómo trabajar
 
-# ¿Cómo hacerlo?
+1. Abre esta carpeta con Visual Studio Code.
+2. Abre el HTML del ejercicio con **Live Server**.
+3. Abre **F12 → Consola** para ver los mensajes. En los últimos ejercicios también observarás una ventana emergente o cambios en la página.
+4. Lee la teoría y el enunciado. Edita el código al final del HTML.
+5. Guarda y comprueba el resultado. Usa el prompt de clase si necesitas ayuda.
+6. Consulta el desplegable **Resultado esperado** después de intentarlo.
 
-En un terminal escribe `node ex1.js` y observa el resultado.
+No necesitas instalar dependencias. El diseño utiliza el archivo compartido **style.css**.
 
-Los ejercicios en HTML se deben ejecutar con el Live Server. En el mismo código tenéis lo que hay que hacer.
+## Ejemplos
 
-## Resultados esperados 
+Los tres ejemplos de funciones están reunidos en [ejemplos/index.html](ejemplos/index.html), con comentarios en español. El error de ámbito está comentado para probarlo voluntariamente.
 
-### ex3.js
-<img src="https://oscarm.tinytake.com/media/187777d?filename=1785663571264_TinyTake02-08-2026-11-39-28_639212603699184383.png&sub_type=thumbnail_preview&type=attachment&width=798&height=262" title="Powered by TinyTake Screen Capture"/><br>
+## Ejercicios
 
-### ex4.js
+| Archivo | Contenido |
+| --- | --- |
+| [index1.html](index1.html) | Invocar una función |
+| [index2.html](index2.html) | Pasar valores y obtener un resultado |
+| [index3.html](index3.html) | Reutilizar una función con un bucle |
+| [index4.html](index4.html) | Interpretar una función booleana |
+| [index5.html](index5.html) | Simular un dado |
+| [index6.html](index6.html) | Sumar dos tiradas |
+| [index7.html](index7.html) | Calcular el área de una esfera |
+| [index8.html](index8.html) | Devolver el mayor número |
+| [index9.html](index9.html) | Mostrar un mensaje con alert |
+| [index10.html](index10.html) | Enlazar un script externo |
+| [index11.html](index11.html) | Cambiar palabras con replace |
 
-<img src="https://oscarm.tinytake.com/media/1877780?filename=1785663811819_TinyTake02-08-2026-11-43-24_639212606106491035.png&sub_type=thumbnail_preview&type=attachment&width=800&height=197" title="Powered by TinyTake Screen Capture"/><br>
+El antiguo ex3b pasa a index4. Los ejercicios posteriores se renumeran; los tres ejercicios que ya eran HTML pasan a index9, index10 e index11.
 
-### ex5.js
+En las tiradas aleatorias se muestra un ejemplo de salida posible, con el intervalo de resultados válidos. En el ejercicio de replace puedes elegir cualquier animal.
 
-<img src="https://oscarm.tinytake.com/media/1877783?filename=1785664547402_TinyTake02-08-2026-11-55-41_639212613459534817.png&sub_type=thumbnail_preview&type=attachment&width=799&height=299" title="Powered by TinyTake Screen Capture"/><br>
+## Soluciones
 
-### ex6.js
+La rama **solution-html** contiene los mismos HTML resueltos con soluciones sencillas y declaraciones con let.
 
-<img src="https://oscarm.tinytake.com/media/1877784?filename=1785664929513_TinyTake02-08-2026-12-02-04_639212617279385998.png&sub_type=thumbnail_preview&type=attachment&width=797&height=151" title="Powered by TinyTake Screen Capture"/><br>
+## Observaciones didácticas
 
-### ex7.js
-
-<img src="https://oscarm.tinytake.com/media/1877785?filename=1785665165543_TinyTake02-08-2026-12-06-02_639212619641316722.png&sub_type=thumbnail_preview&type=attachment&width=800&height=178" title="Powered by TinyTake Screen Capture"/>
-
-### index6.html
-
-Este ejercicio debes abrirlo con Live Server.
-
-<img src="https://oscarm.tinytake.com/media/1877786?filename=1785665461976_TinyTake02-08-2026-12-10-58_639212622602856341.png&sub_type=thumbnail_preview&type=attachment&width=1197&height=237" title="Powered by TinyTake Screen Capture"/><br>
-
-### index7.html
-
-<img src="https://oscarm.tinytake.com/media/1877788?filename=1785665695198_TinyTake02-08-2026-12-14-51_639212624938621279.png&sub_type=thumbnail_preview&type=attachment&width=1199&height=482" title="Powered by TinyTake Screen Capture"/><br>
-
-### index8.html
-
-[Clic para ver el resultado esperado](https://oscarm.tinytake.com/msc/ODc4ODA3OF8yMjIwOTM4NA)
-
-## Solución
-
-[Solución](https://github.com/omiras/functions-playground-javascript/tree/solution-13-march) -> Hacer click en cada uno de los ficheros para verla 
+- index4 es de observación: los mensajes positivo/negativo están intercambiados intencionalmente. La solución responde en comentarios.
+- index7 calcula el área de la superficie de una esfera, no su volumen. La llamada con radio 5 está etiquetada correctamente.
+- index9 abre un alert en cada recarga; con autoguardado puede interrumpir la escritura. Se mantiene porque practicar alert es el objetivo.
+- index10 introduce scripts externos y manipulación del documento: puede reservarse para una sesión posterior.
+- Posible ampliación, no añadida: una función que calcule el precio final con descuento, devuelva el resultado y se reutilice con varios productos.

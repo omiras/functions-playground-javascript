@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Reutilizar una función con un bucle</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 3 · Reutilizar una función con un bucle</h1>
+        <p>Practica las funciones en el navegador.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>Una función puede combinar parámetros y bucles: un parámetro indica cuántas veces repetir y otro indica qué texto mostrar.</p>
+        <pre><code></code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Invoca escribeVeces con los argumentos adecuados para mostrar Hola! diez veces.</p>
+        <p>Lee el código y predice el resultado antes de cambiarlo. Trabaja al final de este HTML y guarda para probar. Recuerda utilizar el prompt de clase cuando necesites ayuda.</p>
+
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <p>Salida de la consola al completar el ejercicio:</p>
+        <pre>Hola!
+Hola!
+Hola!
+Hola!
+Hola!
+Hola!
+Hola!
+Hola!
+Hola!
+Hola!</pre>
+
+      </details>
+    </main>
+    <script>
+      /**
+       * Hasta ahora hemos visto funciones muy sencillitas, pero pueden ser más complejas.
+       *
+       * La siguiente función escribe 'n' veces el texto que le pasamos en 'texto'
+       */
+
+      function escribeVeces(n, texto) {
+        for (let i = 0; i < n; i++) {
+          console.log(texto);
+        }
+      }
+
+      /**
+       * Invoca esta función de manera adecuada para que escribe la palabra 'Hola!' 10 veces. ESCRIBE solo a partir de aquí -->
+       */
+    </script>
+  </body>
+</html>

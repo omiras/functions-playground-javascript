@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 8</title>
-    <style>
-        html{
-            font-size: 20px;
-        }
-    </style>
-</head>
+    <title>Ejercicio 8 - Devolver el mayor número</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="lesson">
+      <header>
+        <h1>Ejercicio 8 · Devolver el mayor número</h1>
+        <p>Practica las funciones en el navegador.</p>
+      </header>
+      <section aria-labelledby="teoria">
+        <h2 id="teoria">Antes de empezar</h2>
+        <p>return devuelve un valor y termina la ejecución de la función. Puedes usar un if...else para decidir cuál de los dos parámetros devolver.</p>
+        <pre><code></code></pre>
+      </section>
+      <section aria-labelledby="practica">
+        <h2 id="practica">Tu turno</h2>
+        <p>Abre este archivo con <strong>Live Server</strong> y la consola del navegador (<strong>F12 → Consola</strong>).</p>
+        <p>Completa maxNumber para devolver el mayor de los dos parámetros. Si son iguales, devuelve ese mismo valor.</p>
+        <p>Lee el código y predice el resultado antes de cambiarlo. Trabaja al final de este HTML y guarda para probar. Recuerda utilizar el prompt de clase cuando necesites ayuda.</p>
 
-<body>
-    <h1>Métodos string</h1>
-    <p>Todos los string tienen funciones o también llamados métodos para manipular su valor</p>
-    <p>Investiga un poco sorbe ello <a
-            href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Useful_string_methods">aqui</a></p>
-    <span id="cambiar">Me encantan los gatos!</span>
+      </section>
+      <details>
+        <summary>Resultado esperado (pulsa para verlo)</summary>
+        <p>Salida de la consola al completar el ejercicio:</p>
+        <pre>
+</pre>
+
+      </details>
+    </main>
     <script>
+      /**
+       * Implementa una función que reciba dos números y devuelva el mayor de ellos.
+       * PISTA: Si a es mayor que b, entonces tenemos que devolver el valor de a. Si b es mayor que a, entonces tenemps que devolver el valor de b.
+       */
 
-        let textoSpan = document.querySelector('#cambiar').textContent
+      function maxNumber(a, b) {
+          // COMPLETAR
+          return;
+      }
 
-        // La variable 'textoSpan' contiene el texto del tag 'span' con id='cambiar'
-
-        // Usa adecuadamente la función 'replace' para cambiar la palabra 'gatos' del texto del span; por tu animal favorito
-        
-        // Resultado esperado: https://oscarm.tinytake.com/msc/ODc4ODA3OF8yMjIwOTM4NA
-        let nuevoTexto = textoSpan.replace('', '') // Cambiar solamente esta línea
-
-
-        // No modificar a partir de aquí
-        document.querySelector('#cambiar').textContent = nuevoTexto;
-
+      console.log(maxNumber(10, 20)); // 20
+      console.log(maxNumber(5, 2)); // 5
+      console.log(maxNumber(7, 7)); // 7
     </script>
-</body>
-
+  </body>
 </html>
