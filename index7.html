@@ -14,12 +14,13 @@
       </header>
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
-        <p>El área de la superficie de una esfera es 4 × π × radio². Math.PI proporciona π y el operador ** permite elevar un número a una potencia.</p>
-        <pre><code>let lado = 3;
-let areaCuadrado = lado ** 2;
+        <p>Una función puede realizar un cálculo con sus parámetros, guardar el resultado en una variable y devolverlo mediante <code>return</code>.</p>
+        <pre><code>function calcularAreaRectangulo(base, altura) {
+  let area = base * altura;
+  return area;
+}
 
-console.log(areaCuadrado); // 9
-console.log(Math.PI); // 3.141592653589793</code></pre>
+console.log("El area de un rectangulo de anchura 10 y altura 20 es: ", calcularAreaRectangulo(10, 20));</code></pre>
       </section>
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
