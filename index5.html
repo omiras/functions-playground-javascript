@@ -14,12 +14,14 @@
       </header>
       <section aria-labelledby="teoria">
         <h2 id="teoria">Antes de empezar</h2>
-        <p>Math.random() devuelve un número desde 0 (incluido) hasta 1 (excluido). Math.floor() redondea hacia abajo. Combina estas herramientas para obtener un entero.</p>
-        <pre><code>let decimal = Math.random();
-console.log(decimal); // Desde 0 (incluido) hasta 1 (excluido).
+        <p>Después de crear una función, puedes llamarla todas las veces que necesites usando argumentos diferentes.</p>
+        <pre><code>function calcularAreaRectangulo(base, altura) {
+  return base * altura;
+}
 
-let entero = Math.floor(3.8);
-console.log(entero); // 3</code></pre>
+console.log(calcularAreaRectangulo(5, 3));  // 15
+console.log(calcularAreaRectangulo(8, 2));  // 16
+console.log(calcularAreaRectangulo(4, 4));  // 16</code></pre>
       </section>
       <section aria-labelledby="practica">
         <h2 id="practica">Tu turno</h2>
@@ -29,7 +31,9 @@ console.log(entero); // 3</code></pre>
       <details>
         <summary>Resultado esperado (pulsa para verlo)</summary>
         <p>Ejemplo de salida posible (las tiradas cambian en cada ejecución):</p>
-        <pre>2</pre>
+        <pre>2
+5
+1</pre>
         <p>Cada línea debe ser un entero entre 1 y 6. No necesitas obtener exactamente estas tiradas.</p>
       </details>
     </main>
