@@ -95,3 +95,20 @@ body {
 .lesson details pre {
   white-space: pre-wrap;
 }
+
+.lesson .lesson-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+  border-radius: 6px;
+}
+
+.lesson .expected-text {
+  margin: 20px 0;
+  color: #1f4f91;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center;
+}
